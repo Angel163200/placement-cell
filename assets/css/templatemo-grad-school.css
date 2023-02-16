@@ -68,7 +68,7 @@ p {
 
 /* Buttons */
 
-.main-button a {
+.main-button button {          /*change #1  */
     background-color: #f5a425;
     color: #fff;
     font-size: 13px;
@@ -78,6 +78,11 @@ p {
     padding: 12px 20px;
     display: inline-block;
     outline: none;
+    border: none;
+}
+
+.main-button a{
+  color: #fff;       /* update */ 
 }
 
 a.menu-link { display: none; }
