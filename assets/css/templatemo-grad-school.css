@@ -280,7 +280,10 @@ a.menu-link { display: none; }
 
 .main-nav li:hover a,
 .main-nav li.active a {
-    border: 2px solid #f5a425;
+  text-decoration: underline  #f5a425;
+  position: relative;
+  text-decoration-thickness: 4px;
+  /* border: 2px solid #f5a425;*/
 }
 
 @media (max-width: 950px) {
