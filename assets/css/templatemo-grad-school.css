@@ -802,6 +802,7 @@ section.coming-soon form button {
 
 /* Courses */
 
+
 section.courses {
     background-image: url(../images/choosing-bg.jpg);
     background-repeat: no-repeat;
@@ -818,6 +819,8 @@ section.courses .item img {
 
 section.courses .item .down-content {
     padding: 30px;
+    display: block;
+    height:300px; 
     background-color: #fff;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -831,10 +834,13 @@ section.courses .item .down-content h4 {
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
+    
 }
 
 section.courses .item .down-content p {
     margin-bottom: 25px;
+  
+    
 }
 
 section.courses .item .down-content img {
@@ -885,6 +891,7 @@ section.courses .owl-carousel button.owl-dot {
 section.courses .owl-carousel button.active {
     background-color: #f5a425;
 }
+
 
 
 
