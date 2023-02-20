@@ -72,7 +72,7 @@
 	$( "#tabs" ).tabs();
 
 
-	(function init() {
+/*	(function init() {
 	  function getTimeRemaining(endtime) {
 	    var t = Date.parse(endtime) - Date.parse(new Date());
 	    var seconds = Math.floor((t / 1000) % 60);
@@ -101,6 +101,6 @@
 	  },1000);
 	}
 	initializeClock(((new Date()).getFullYear()+1) + "/1/1")
-	})()
+	})() */
 
 })(jQuery);
