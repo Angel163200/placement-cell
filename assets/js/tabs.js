@@ -5228,7 +5228,7 @@ $.extend(Datepicker.prototype, {
 			this._determineDate(inst, this._get(inst, "defaultDate"), new Date()));
 	},
 
-	/* A date may be specified as an exact value or a relative one. */
+	/* A date may be specified as an exact value or a relative one. 
 	_determineDate: function(inst, date, defaultDate) {
 		var offsetNumeric = function(offset) {
 				var date = new Date();
@@ -5282,7 +5282,7 @@ $.extend(Datepicker.prototype, {
 			newDate.setMilliseconds(0);
 		}
 		return this._daylightSavingAdjust(newDate);
-	},
+	}, */
 
 	/* Handle switch to/from daylight saving.
 	 * Hours may be non-zero on daylight saving cut-over:
